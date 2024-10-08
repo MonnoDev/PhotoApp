@@ -13,14 +13,10 @@ Initial Load: By default, the app loads pictures using the tag new.
 Searching: You can search for pictures by entering any tag you like.
 
 The API code can be found in the following path:
-vinted-task/src/api/api.js
+front-end/src/api/api.js
 
 I have tried to match the design to the requirements as closely as possible. Since the pictures returned by the API are not consistent in size, I decided to use white borders around them.
 
 For design measurements, I used Figma and have attached a screenshot for reference. I have used Figma to measure, margins, text size, and photo container size.
 
 In this app, you can favourite pictures. The data is stored in 'localStorage' under 'likedPhotos' when the picture is liked the colour of the button changes.
-
-Unfortunately, I do not have much experience with writing tests. However, I tested each function using console.log to ensure it works correctly. I tested favouriting, searching, and loading image functionality the most.
-
-Although I have some knowledge of TypeScript, I opted to use JavaScript for this submission as I feel more confident with it.

@@ -1,0 +1,89 @@
+.photoContainer {
+  position: relative;
+  width: 359px;
+  height: 269px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  margin: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.photoContainer img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.photoData {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 18px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.photoData:hover {
+  opacity: 1;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+  background-color: transparent;
+}
+
+.textContainer div{
+  background-color: transparent;
+}
+
+.boldText {
+  font-weight: bold;
+  color: #fafafa;
+}
+
+.separator {
+  border: 1px solid #fafafa;
+  height: 0.1px;
+  width: 88px;
+  margin: 8px 0;
+}
+
+.italicText {
+  font-style: italic;
+  color: #fafafa;
+}
+
+button {
+  background-color: transparent;
+  color: #fafafa;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 16px;
+  border-radius: 50px;
+  border: 1px solid #fafafa;
+  width: 132px;
+  height: 48px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
